@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom home screen name for direct builds. -->
+    <string name="brand_custom">My Brand</string>
+</resources>

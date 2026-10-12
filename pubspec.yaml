@@ -1,0 +1,31 @@
+name: brand_switcher
+description: "Change the app name and launcher icon from a backend config."
+publish_to: 'none'
+
+# build-name -> versionName / CFBundleShortVersionString,
+# build-number -> versionCode / CFBundleVersion.
+version: 1.0.0+142
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  package_info_plus: ^10.2.2
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Launcher artwork, shown inside the app next to the in-app name.
+  assets:
+    - assets/icons/

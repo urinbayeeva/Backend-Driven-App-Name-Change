@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_rocket_bg">#FF6B4A</color>
+    <color name="ic_star_bg">#3D7BF7</color>
+    <color name="ic_heart_bg">#E5487A</color>
+</resources>

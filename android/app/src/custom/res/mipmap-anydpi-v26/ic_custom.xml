@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Custom icon for direct builds. Keep the art of ic_custom_fg inside the
+     72dp safe zone; the padding is white to match. -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@android:color/white"/>
+    <foreground android:drawable="@mipmap/ic_custom_fg"/>
+</adaptive-icon>

@@ -1,0 +1,5 @@
+// Every icon set is named AppIcon-<key>, so any key can become primary by
+// changing BRAND_ICON. Append-only: keep a set for at least two releases.
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon-$(BRAND_ICON)
+ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = AppIcon-rocket AppIcon-star AppIcon-heart
+ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES

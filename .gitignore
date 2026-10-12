@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Editor and toolchain folders
+.vscode/
+.fvm/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Generated custom icon for direct builds
+/ios/Runner/Assets.xcassets/AppIcon-custom.appiconset/
+
+# Secrets and local configuration. Never commit these; commit the
+# *.example counterparts instead.
+.env
+.env.*
+!.env.example
+/env/*.json
+!/env/example.json
+key.properties
+*.jks
+*.keystore
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+*.cer
+local.properties
+google-services.json
+GoogleService-Info.plist
+
+# Native dependencies
+**/ios/Pods/

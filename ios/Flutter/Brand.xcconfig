@@ -1,0 +1,5 @@
+// Primary brand baked into this build. Change these values (or overwrite
+// this file in CI) to ship a different default.
+BRAND = aurora
+BRAND_DISPLAY_NAME = AURORA
+BRAND_ICON = rocket

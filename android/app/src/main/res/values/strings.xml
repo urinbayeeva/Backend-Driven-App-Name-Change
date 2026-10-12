@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Home screen names. Keep <= 12 characters. brand_main comes from Gradle. -->
+    <string name="name_aurora">AURORA</string>
+    <string name="name_nova">NOVA</string>
+    <string name="name_pulse">PULSE</string>
+    <string name="name_orbit">ORBIT</string>
+</resources>
